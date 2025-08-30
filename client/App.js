@@ -1,5 +1,5 @@
-import './App.css'; // bez "src/"
 import React from 'react';
+import './App.css'; // bez "src/"
 
 function App() {
   return (
