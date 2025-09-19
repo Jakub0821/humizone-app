@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 
 // Import komponentów z views
-import Navbar from './views/Navbar';
-import Home from './views/Home';
-import Footer from './views/Footer';
+import Navbar from './../src/views/Navbar';
+import Home from './../src/views/Home';
+import Footer from './../src/views/Footer';
 
 function App() {
   return (
