@@ -1,12 +1,16 @@
 import React from 'react';
-import Navbar from './views/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import Home from './views/Home';
+import ChatRoom from './views/ChatRoom';
+import Tasks from './views/Tasks';
+import Login from './views/Login';
+import Navbar from './views/Navbar';
 import Footer from './views/Footer';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,9 +19,8 @@ function App() {
         <Route path="/logowanie" element={<Login />} />
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
-
 
 export default App;
