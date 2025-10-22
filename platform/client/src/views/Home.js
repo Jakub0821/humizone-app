@@ -1,6 +1,8 @@
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      {/* zawartość strony domowej */}
+    </div>
   );
 }
 
