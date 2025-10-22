@@ -5,7 +5,7 @@ import Home from './views/Home';
 import ChatRoom from './views/ChatRoom';
 import Tasks from './views/Tasks';
 import Login from './views/Login';
-import Navbar from './views/Navbar';
+import Navbar from './views/NavBar';
 import Groups from './views/Groups';
 
 function App() {
