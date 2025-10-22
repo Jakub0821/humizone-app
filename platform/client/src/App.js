@@ -6,19 +6,19 @@ import ChatRoom from './views/ChatRoom';
 import Tasks from './views/Tasks';
 import Login from './views/Login';
 import Navbar from './views/Navbar';
-import Footer from './views/Footer';
+import Groups from './views/Groups';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Stron główna" element={<Home />} />
         <Route path="/czat" element={<ChatRoom />} />
         <Route path="/zadania" element={<Tasks />} />
         <Route path="/logowanie" element={<Login />} />
+        <Route path="/grupy" element={<Groups />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }
