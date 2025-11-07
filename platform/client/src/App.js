@@ -7,6 +7,7 @@ import Tasks from './views/Tasks';
 import Login from './views/Login';
 import Navbar from './views/NavBar';
 import Groups from './views/Groups';
+import Register from './views/Register';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/zadania" element={<Tasks />} />
         <Route path="/logowanie" element={<Login />} />
         <Route path="/grupy" element={<Groups />} />
+        <Route path="/rejestracja" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );

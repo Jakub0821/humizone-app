@@ -1,0 +1,44 @@
+.register-container {
+  display: flex;
+  height: 100vh;
+}
+
+.register-left {
+  flex: 1;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-right {
+  flex: 1;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-right form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.register-right input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.register-right button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
