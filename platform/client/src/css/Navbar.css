@@ -6,9 +6,16 @@ body {
 }
 
 nav {
-  background-color: #333;
-  padding: 1rem;
-  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* ciemne tło */
+  padding: 10px 20px;
+}
+
+ .logo {
+  height: 40px;
+  margin-right: 10px;
 }
 
 .navbar {
@@ -47,19 +54,34 @@ nav {
 }
 
 nav h2 {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 24px;
   margin: 0;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
   display: flex;
-  gap: 1rem;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f4a8ab; /* delikatny kolor akcentu */
 }
 
 nav a:hover {
