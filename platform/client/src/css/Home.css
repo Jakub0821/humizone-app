@@ -1,0 +1,40 @@
+.home-container {
+  display: flex;
+  height: calc(100vh - 60px); /* Odejmujemy navbar */
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f2f3f5;
+}
+
+.home-content {
+  max-width: 50%;
+}
+
+.brand {
+  color: #4f8a8b;
+}
+
+.home-buttons {
+  margin-top: 20px;
+}
+
+.home-buttons button {
+  margin-right: 15px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.home-buttons button:hover {
+  background-color: #555;
+}
+
+.home-image img {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+}

@@ -1,3 +1,11 @@
+:root {
+  --color-primary: #5b2a82;     /* Fioletowy */
+  --color-accent: #ff6600;      /* Pomarańczowy */
+  --color-bg: #faf1dd;          /* Jasne tło */
+  --color-text: #333;           /* Domyślny tekst */
+  --color-white: #ffffff;
+}
+
 .App {
   text-align: center;
 }
