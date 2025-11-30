@@ -1,6 +1,6 @@
 import "../css/Navbar.css";
 import { Link } from "react-router-dom";
-import logo from "../assets/HumiZone.png"; // <- logo
+import logo from '../assets/HumiZone-logo.png';
 
 function Navbar() {
   return (
