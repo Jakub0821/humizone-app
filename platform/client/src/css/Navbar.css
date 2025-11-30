@@ -10,12 +10,13 @@ nav {
   padding: 1rem;
   color: white;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 30px;
   background-color: var(--color-primary);
-  padding: 10px 30px;
   color: white;
 }
 
@@ -30,9 +31,9 @@ nav {
 }
 
 .navbar-links {
-  list-style: none;
   display: flex;
   gap: 20px;
+  list-style: none;
 }
 
 .navbar-links a {
