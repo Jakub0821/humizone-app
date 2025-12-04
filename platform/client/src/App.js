@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import Landing from './views/Landing';
 import Home from './views/Home';
 import ChatRoom from './views/ChatRoom';
 import Tasks from './views/Tasks';
