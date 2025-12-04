@@ -33,6 +33,31 @@
   background-color: #555;
 }
 
+.home-features {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.feature {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+  color: var(--main-purple);
+}
+
+.feature p {
+  color: #666;
+  font-size: 14px;
+}
+
 .home-image img {
   max-width: 450px;
   width: 100%;
