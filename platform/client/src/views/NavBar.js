@@ -10,7 +10,8 @@ function Navbar() {
         <h2>Humizone</h2>
       </div>
       <ul className="navbar-links">
-        <li><Link to="/home">Home</Link></li>
+        <li><Link to="/Land">Landing</Link></li>
+        <li><Link to="/home">Dom</Link></li>
         <li><Link to="/czat">Czat</Link></li>
         <li><Link to="/zadania">Zadania</Link></li>
         <li><Link to="/logowanie">Logowanie</Link></li>
