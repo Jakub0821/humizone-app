@@ -1,42 +1,20 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+import React from 'react';
 import "../css/Home.css";
 
-
 const Home = () => {
-  const navigate = useNavigate();
-
   return (
-  <div className="home-container">
-    <div className="home-content">
-      <h1>Witaj w <span className="brand">Humizone</span></h1>
-      <p>Twoja strefa zadań, czatu i grup</p>
-      <div className="home-buttons">
-        <button onClick={() => navigate("/logowanie")}>Zaloguj się</button>
-        <button onClick={() => navigate("/rejestracja")}>Zarejestruj się</button>
-      </div>
+    <div className="dashboard-container">
+      <h1>Witaj w Humizone!</h1>
+      <p>Oto Twój panel użytkownika:</p>
 
-      <div className="home-features">
-        <div className="feature">
-          <h3>📝 Zadania</h3>
-          <p>Organizuj swoje obowiązki w jednym miejscu.</p>
-        </div>
-        <div className="feature">
-          <h3>💬 Czat</h3>
-          <p>Rozmawiaj ze znajomymi lub zespołem w czasie rzeczywistym.</p>
-        </div>
-        <div className="feature">
-          <h3>👥 Grupy</h3>
-          <p>Współpracuj w dedykowanych grupach.</p>
-        </div>
+      <div className="dashboard-widgets">
+        <div className="widget">📅 Twoje najbliższe zadania</div>
+        <div className="widget">💬 Ostatnie wiadomości</div>
+        <div className="widget">👥 Twoje grupy</div>
+        <div className="widget">🔔 Powiadomienia</div>
       </div>
     </div>
-
-    <div className="home-image">
-      <img src="https://undraw.co/api/illustrations/choose-your-path.svg" alt="Ilustracja" />
-    </div>
-  </div>
-);
+  );
 };
 
 export default Home;

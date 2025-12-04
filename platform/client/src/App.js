@@ -14,6 +14,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path="/Land" element={<Landing />} />
         <Route path="/Stron główna" element={<Home />} />
         <Route path="/czat" element={<ChatRoom />} />
         <Route path="/zadania" element={<Tasks />} />
